@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap');
+
+
+
+.nunito{
+    font-family: 'Nunito Sans', sans-serif;
+
+    
+}
+
+.poppin{
+    font-family: 'Poppins', sans-serif;
+
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+
+}
