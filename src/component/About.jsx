@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div data-aos="fade-left" name="about" className='lg:w-[1328px] bas px-3 md:w-[728px] w-full mx-auto flex-col lg:flex-row md:flex-row flex justify-between py-10 '>
+    <div data-aos="fade-bottom" name="about" className='lg:w-[1328px] bas px-3 md:w-[728px] w-full mx-auto flex-col lg:flex-row md:flex-row flex justify-between py-10 '>
         <div className='flex gap-2 items-center'>
             <img src="discount-book-1.png"   className='rotate-12 md:w-[160px] w-[150px] lg:w-[280px] object-cover' alt="" />
             <img src="discount-book-2.png" className='-rotate-12 md:w-[160px]  w-[150px] lg:w-[280px] object-cover' alt="" />

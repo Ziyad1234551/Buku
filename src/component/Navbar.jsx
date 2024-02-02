@@ -15,8 +15,8 @@ const Navbar = ({setNav,nav}) => {
 
         <div className="lg:flex md:flex hidden overflow-hidden gap-4 text-2xl font-semibold nunito items-center">
             <NavLink to="/">Home</NavLink>
-            <ScrollLink smooth={true}  to="about">About</ScrollLink>
-            <ScrollLink smooth={true} to="product">Product</ScrollLink>
+            <ScrollLink smooth={true}  className="cursor-pointer" to="about">About</ScrollLink>
+            <ScrollLink smooth={true} className="cursor-pointer" to="product">Product</ScrollLink>
             <NavLink to="/">Contact</NavLink>
 
         </div>

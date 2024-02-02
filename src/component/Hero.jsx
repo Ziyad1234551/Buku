@@ -15,7 +15,7 @@ export const Hero = () => {
     ]
     const [book,setBook] = useState(books[0])
   return (
-    <div data-aos="fade-left" className='lg:w-[1328px] bas px-2 w-full lg:flex-row md:flex-row flex-col md:w-[708px] md:px-2 flex open  mx-auto justify-between py-[40px]'>
+    <div data-aos="fade-up" className='lg:w-[1328px] bas px-2 w-full lg:flex-row md:flex-row flex-col md:w-[708px] md:px-2 flex open  mx-auto justify-between py-[40px]'>
         <div>
             <h1 className='lg:text-[65px] text-4xl mb-2 md:text-[50px] text-blue-600  font-bold md:my-1 lg:my-3'>Book Store</h1>
 
