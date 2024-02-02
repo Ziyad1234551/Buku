@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="w-auto bg-gradient-to-b  py-3 bas text-white md:h-auto lg:h-[30vh] justify-center poppin  from-blue-500 to-blue-700">
+    <footer className="w-full bg-gradient-to-b py-3 text-white md:h-auto lg:h-[30vh] justify-center poppin  from-blue-500 to-blue-700">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 justify-center px-[50px] gap-8">
         <div className="footer-section">
           <h2 className='text-3xl mb-2 font-bold'>About Us</h2>

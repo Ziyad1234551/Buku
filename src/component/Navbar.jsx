@@ -2,6 +2,7 @@ import React from 'react';
 import { IoBook } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
 import { NavLink } from 'react-router-dom';
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = ({setNav,nav}) => {
   return (
@@ -14,8 +15,8 @@ const Navbar = ({setNav,nav}) => {
 
         <div className="lg:flex md:flex hidden overflow-hidden gap-4 text-2xl font-semibold nunito items-center">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/">About</NavLink>
-            <NavLink to="/">Blog</NavLink>
+            <ScrollLink smooth={true}  to="about">About</ScrollLink>
+            <ScrollLink smooth={true} to="product">Product</ScrollLink>
             <NavLink to="/">Contact</NavLink>
 
         </div>

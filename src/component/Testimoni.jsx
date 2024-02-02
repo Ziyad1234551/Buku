@@ -41,7 +41,7 @@ export const Testimoni = () => {
         }
     ]
   return (
-    <div data-aos="fade-right" className='lg:w-[1328px] w-[360px] md:w-[728px] my-[50px] mx-auto'>
+    <div data-aos="fade-right" className='lg:w-[1328px] bas w-full md:w-[728px] my-[50px] mx-auto'>
         <h1 className='text-blue-500 px-4 mb-2 md:text-4xl text-xl lg:text-4xl text-center font-bold poppin'>What Our Customer Say About Us</h1>
         <Swiper
         spaceBetween={30}
