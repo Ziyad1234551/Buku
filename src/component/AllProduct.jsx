@@ -41,12 +41,12 @@ export const AllProduct = () => {
 
 ]
   return (
-    <div data-aos="zoom-in" className='w-[1328px] w-full md:w-[728px] mx-auto'>
+    <div data-aos="zoom-in" className='lg:w-[1328px] bas  w-full md:w-[728px] mx-auto'>
         <h1 className='text-blue-500 lg:text-5xl md:text-5xl text-4xl font-bold text-center'>All Products</h1>
     <div className="grid my-10 md:grid-cols-3 lg:grid-cols-[340px,340px,340px] justify-center gap-10">
       {books.map((book)=>{
         return(
-          <div className='w-full bg-white px-10 h-[560px] shadow-lg md:h-auto'>
+          <div className='lg:w-full w-[250px]  bg-white px-10 lg:h-[560px] h-auto shadow-lg md:h-auto'>
             <img src={book.image} className='lg:w-[290px] w-full md:w-full md:h-[200px] lg:h-[400px] cursor-pointer transition-all hover:scale-105 mx-auto object-cover' alt="" />
             <h1 className="my-4 text-center lg:text-xl font-bold poppin md:text-[10px]">{book.name}</h1>
             <div className="flex justify-center my-3">
